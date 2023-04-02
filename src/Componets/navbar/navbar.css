@@ -1,0 +1,93 @@
+.header_bar{
+    background-color: #0181B0;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    z-index: 1;
+
+}
+.menus ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menus ul li {
+    list-style: none;
+    margin: 0 8px;
+    padding: 0 8px;
+}
+.menus ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: .3s ease-in-out;
+    position: relative;
+    font-size: 1rem;
+    font-size: 500;
+}
+.menus ul li a:hover{
+    color: #ffff;
+     
+}
+.menus ul li a::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0%;
+    background-color: #fff;
+    position: absolute;
+    bottom: -1px;
+    left: 0%;
+    transition: .3s ease-in-out;
+}
+.menus ul li a:hover::after{
+    width: 100%;
+}
+.logo{
+    font-family: 'Mrs Saint Delafield';
+    color: #fff;
+    font-size: 2rem;
+}
+
+.sidebar-btn{
+    display: none
+}
+
+
+
+
+@media screen and (max-width: 750px){
+    .sidebar-btn{
+        margin-left: 100%;
+        padding-top: 20px;
+       
+    }
+    .header_bar{
+        flex-direction: column;
+        height: 100vh;
+        width: 260px;
+        justify-content: center;
+        left: -100%;
+        transition: all .3s ease-in-out;
+    }
+    .menus ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .menus ul li{
+       margin: 25px;
+    }
+    .menus ul li a{
+        font-size: 1.3rem;
+    }
+    .logo{
+       display: none;
+    }
+   
+}
+
