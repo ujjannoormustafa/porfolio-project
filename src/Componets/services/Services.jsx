@@ -4,15 +4,17 @@ import {FaCode} from 'react-icons/fa'
 import {MdDesignServices} from 'react-icons/md'
 import {BsWordpress} from 'react-icons/bs'
 import Navbar from '../navbar/Navbar'
+import Side from '../side/Side'
 
 const Services = () => {
   return (
     <>
     <Navbar />
-   
     <section id="services">
     <div className='bg'>
-    <h1 className='pageTitle'>Services</h1>
+    
+    <Side />
+       <h1 className='pageTitle'>Services</h1>
     <h5 className='pageDesc'>What I Offer</h5>
     <div className="servicesContainer">
     <div className="servicesBox">

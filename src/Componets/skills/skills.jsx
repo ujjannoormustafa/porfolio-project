@@ -10,6 +10,7 @@ import Nodejs from '../../Assests/icons/nodejs.png'
 import Db from '../../Assests/icons/db.png'
 import Java from '../../Assests/icons/java.png'
 import Sp from '../../Assests/icons/sp.png'
+import Side from '../side/Side'
 
 const skills = () => {
   return (
@@ -18,6 +19,7 @@ const skills = () => {
   <Navbar />
     
 <section id="skills">
+    <Side />
     <h1 className='pageTitle' pageTitle>My Skills</h1>
     <h5 className='pageDesc' >Progress</h5>
     <div className="skillsContainer">

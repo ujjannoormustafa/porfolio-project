@@ -4,6 +4,7 @@ import {MdOutlineEmail} from 'react-icons/md'
 import {AiOutlineLinkedin} from 'react-icons/ai'
 import {AiOutlineInstagram} from 'react-icons/ai'
 import Navbar from '../navbar/Navbar'
+import Side from '../side/Side'
 
 /* Emailjs import
 import  { useRef } from 'react';
@@ -24,6 +25,7 @@ const Contact = () => {
   <Navbar />
     <section id='contact'>
       <div className="bg">
+        <Side />
        <div className="contactContainer">
       <h2 className='pageTitle'>Contact Me</h2>
       <h5 className='pageDesc'>Get In Touch</h5>

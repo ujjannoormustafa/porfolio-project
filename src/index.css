@@ -100,11 +100,8 @@ html{
   padding: 0px 20px;
 }
 /* Btn styling end */
-
 section{
-  /* height: 100vh; */
-  width: 100%;
-  padding-top: 75px;
+  padding-top: 80px;
 }
 .pageTitle{
   text-align: center;
@@ -146,5 +143,11 @@ section{
 .aboutRight h2 {
   margin-right: 0%;
 }
-
+section{
+  padding-top: 2px;
+}
+.sidebar-btn {
+   margin-left: 0%; 
+  
+}
 }
