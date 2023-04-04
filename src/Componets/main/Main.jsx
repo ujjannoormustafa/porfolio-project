@@ -2,8 +2,9 @@ import React from 'react'
 import Img from '../../Assests/Images/bg.png'
 import './main.css'
 import {GiHamburgerMenu} from 'react-icons/gi'
-import Navbar from '../navbar/Navbar'
 import {AiOutlineClose} from 'react-icons/ai'
+import Navbar from '../navbar/Navbar'
+import Side from '../bar/Side'
 import { Link } from 'react-router-dom'
 const main = () => {
   return (
@@ -11,22 +12,7 @@ const main = () => {
     <Navbar />
    <main>
     <div className="container">
-    <div className="sidebar-btn"
-    onClick={()=>{
-      document.querySelector('.header_bar').classList.toggle('hide')
-
-      if(document.querySelector('.header_bar').classList.contains('hide')){
-        document.querySelector('.barbtn').classList.add('barshow')
-        document.querySelector('.close').classList.remove('barshow')
-      }else{
-        document.querySelector('.barbtn').classList.remove('barshow')
-        document.querySelector('.close').classList.add('barshow')
-      }
-    }}
-    >
-     <span className='barbtn'><GiHamburgerMenu /></span> 
-     <span className='close barshow'><AiOutlineClose /></span> 
-    </div>
+   <Side />
     
       <div className="mainLeft">
           <h5>Hello I'm a</h5>
