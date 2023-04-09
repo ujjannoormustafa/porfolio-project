@@ -54,13 +54,7 @@ const skills = () => {
                 <div className='barline'>
                      <div className="bar js"></div>
                 </div>
-                <div className="title">
-                    <span>JavaScript</span>
-                    <span>50%</span>
-                </div>
-                <div className='barline'>
-                     <div className="bar js"></div>
-                </div>
+              
                 <div className="title">
                     <span>Reacjs</span>
                     <span>40%</span>
