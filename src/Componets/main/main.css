@@ -1,0 +1,128 @@
+.sidebar-btn{
+    margin-left: 100%;
+    padding-top: 20px;
+    display: none;
+}
+.hide{
+    left: 0%;
+}
+.barshow{
+    display: none;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EBEEF3;
+    height: 100vh;
+    padding: 0 10%;
+    overflow: hidden;
+}
+.mainLeft, .mainRight{
+    width: 50%;
+    height: 50%;
+    position: relative;
+}
+.mainLeft{
+    position: relative;
+    top: 20%;
+}
+.mainLeft h5{
+    font-size: 1.2rem;
+    color: #152944;
+    font-weight: 300;
+}
+.mainLeft h1{
+    font-size: 3.5rem;
+    color: #0181B0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+}
+.mainLeft p{
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+.bgshape{
+    background-color: #0181B0;
+    width: 63vw;
+    height: 100vh;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 0;
+    left: 24%;
+    bottom: 12%;
+    overflow-y: hidden;
+
+}
+.mainRight img{
+    width: 62%;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    left: 26%;
+    top: 9%;
+}
+
+@media screen and (max-width: 450px){
+    .mainRight img{
+    top: 34%;
+    left: 16%;
+    }
+    .container{
+        height: fit-content;
+    }
+}
+@media screen and (max-width: 750px){
+    .sidebar-btn{
+        display: block;
+        font-size: 25px;
+        padding-right: 54px;
+    }
+    .mainLeft{
+        padding-top: 5px;
+    }
+  
+}
+
+ @media  screen and (max-width: 980px) {
+.container{
+    flex-direction: column;
+    padding: 10px;
+}
+.mainRight img{
+    top: 0%;
+}
+   .bgshape {
+    background-color: #0181B0;
+    width: 52vw;
+    height: 32vh;
+    position: absolute;
+    z-index: 0;
+    left: -7%;
+    overflow-y: hidden;
+    border-radius: 0% 45% 0% 45%;
+   }
+   
+   .mainLeft h1 {
+    font-size: 2rem;
+    margin: 12px 0;
+   }
+}
+@media  screen and (max-width: 768px) {
+    .mainRight img {
+        top: 9%;
+        left: 20%;
+    }
+}
+@media screen and (max-width: 980px){
+    .mainRight img {
+    top: 15%;
+}
+}
+@media  screen and (max-width: px) {
+    .mainRight img {
+        top: 9%;
+        left: 20%;
+    }
+}
+

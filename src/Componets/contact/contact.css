@@ -1,0 +1,129 @@
+.contactContainer{
+    padding: 0 10%;
+   
+}
+.contact__container{
+    width: 100%;
+  
+}
+.contact__options{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+}
+.contact__option{
+    background: #e6e6e6;
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    width: 33%;
+    margin: 8px;
+   
+  
+}
+.contact__option:hover{
+    background-color: transparent;
+   border: 1px solid #0181B0;
+}
+.contact_option-icons{
+    margin-top: 0.7rem;
+    margin-bottom: 0.5rem;
+    font-size: 25px;
+    fill: #0181B0;
+}
+.font__mail{
+    font-size: 11px;
+}
+
+.contact__option a{
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 0.9rem;
+}
+
+
+
+/* ================== Form ====================== */
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+
+}
+input, textarea{
+    width: 30%;
+    padding: .7rem;
+    background-color: #fff;
+    resize: none;
+    color: #fff;
+    background-color: #e6e6e6;
+}
+.contactbtn{
+    width: 30%;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+/*  Media queries (Medium devices) */
+
+@media screen and (max-width: 1024px) {
+    .container.contact__container{
+        grid-template-columns: 1fr ;
+        gap: 1.2rem;
+    }
+    .mainLeft {
+    
+        top: 18%; 
+   }  
+
+}
+/*  Media queries (small devices) */
+
+@media screen and (max-width: 600px) {
+    .container.contact__container{
+        width: 100%;
+    }
+    .servicesBox{
+       flex-direction: column;
+    }
+    .card{
+        width: 100%;
+    }
+    .servicesContainer{
+        height: 0%;
+        
+    }
+    .servicesBox {
+       margin-top: 10px;
+    }
+    .skillsContainer {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    input, textarea{
+        width: 100%;
+    }
+    .contactbtn{
+        width: 100%;
+    }
+    .contact__options {
+    flex-direction: column;
+    margin: 23px;
+    }
+    .contact__option {
+    margin: 12px 0px;
+    width: 100%;
+}
+
+.mainLeft {
+    
+     top: 2%; 
+}    
+
+
+}

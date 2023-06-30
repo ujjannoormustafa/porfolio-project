@@ -1,0 +1,125 @@
+.skillsContainer{
+    width: 100%;
+    height: 60vh;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.skillLeft, .skillRight{
+    border-radius: 8px;
+    border: 1px solid #454249;
+    background-color: #81b5ce;
+    height: 50vh;
+    width: 30%;
+    margin: 12px 45px;
+    padding: 12px 8px;
+    
+}
+.skillLeft h4, .skillRight h4{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.barbox{
+    width: 80%;
+    height: 45vh;
+    margin: 0 auto;
+    padding: 0 25px;
+    padding-top: 35px;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    margin: 6px 0;
+}
+.title span{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.barline{
+    width: 100%;
+    background-color: #EBEEF3;
+    height: 8px;
+}
+.bar{
+    width: 90%;
+    height: 8px;
+    background-color: #0181B0; 
+}
+.css{
+    width: 80%;
+}
+.js{
+    width:  50%;
+}
+.react{
+    width: 40%;
+}
+.bostrap{
+    width: 80%;
+}
+
+.brandIcons{
+    height: 100px;
+    width: 100%;
+    border-top: 1px solid #EBEEF3;
+    padding: 14px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.frontImg img{
+    width: 10%;
+    margin: 3px 2px;
+    transform: scale(1);
+    transition: .3s ease-in;
+}
+.frontImg img:hover{
+    transform: scale(1.7);
+}
+.backImg img{
+    width: 22%;
+    margin: 3px 2px;
+    transform: scale(1);
+    transition: .3s ease-in;
+}
+.backImg img:hover{
+    transform: scale(1.7);
+}
+
+@media screen and (max-width: 600px){
+    .skillsContainer{
+        height: 0%;
+        padding: 0 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .skillLeft, .skillRight{
+      width: 100%;
+      height: fit-content;
+     
+    }
+    .brandIcons {
+        height: 0%; 
+        display: block; 
+       
+    }
+    .frontImg img {
+        width: 17%;
+        margin: 4px 0px 7px 4px;
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,58 @@
+
+.bg{
+    background-color: #ebeef3;
+}
+.servicesContainer{
+    padding: 0 80px;
+    height: 70vh;
+    width: 100%;
+}
+.servicesBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.card{
+    height: 300px;
+    width: 33%;
+    margin: 14px 18px;
+    padding: 8px;
+    border: 1px solid #7388BA;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    transform: scale(1);
+    transition: all .2s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card h2{
+    color: #fff;
+    font-size: 2rem;
+}
+.web{
+    background-image:
+    linear-gradient(rgb(1,129,176,0.6), rgb(1,129,176,0.6)), 
+    url('../../Assests/Images/web.jpg');
+}
+.app{
+    background-image:linear-gradient(rgb(1,129,176,0.6), rgb(1,129,176,0.6)), 
+    url('../../Assests/Images/app.jpg');
+   
+}
+.uiux{
+    background-image:linear-gradient(rgb(1,129,176,0.6), rgb(1,129,176,0.6)), 
+    url('../../Assests/Images/uiux.jpg');
+}
+.icons{
+    font-size: 45px;
+    fill: #fff;
+}
